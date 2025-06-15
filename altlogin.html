@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/altlogin.css">
+</head>
+<body>
+
+       <section id="cl">
+     <div >
+      
+      <img  id="lbs" src="./img/header.png" alt="">
+      <img src="./img/R.png" id="tree" alt="">
+
+     
+     
+      
+
+      <h1 id="title" style="color: rgb(255, 255, 255);">LBS COLLEGE OF ENGINEERING</h1>
+
+
+
+     
+    
+      
+     
+     </div> 
+    </section>
+ 
+    
+
+   
+
+
+     <div class="main">
+
+    <div class="header">
+
+        <div class="bord">
+            fjfmf
+                    
+            </div>
+
+        <ul>
+
+            <li>contact us</li>
+            <li>about</li>
+            <li>socials</li>
+        
+        </ul>
+    </div>
+    
+    <div class="comnt">
+
+   <h1 id="clg">WELCOME TO LBS COLLEGE OF ENGINEERING</h1>
+
+
+   </h4>
+    <form action="">
+    <div class="container">
+
+        <div class="enl" id="emml">
+            <input type="email" placeholder="email">
+        </div>
+    
+<div class="input">
+    <div class="user" id="userr">
+    <input type="text" placeholder="Username">
+</div>
+   <div class="pass" id="passw">
+    <input type="password" placeholder="Password">
+    <button type="submit" class="btn" id="logn">LOGIN</button>
+    </div>
+ 
+</form>
+  
+
+</div>
+
+
+ <div class="blk"></div>
+
+ 
+    </div>
+
+    <div class="ft">
+    </form>
+    <div class="bg"></div>
+
+    </div>
+
+    <button type="button" class="btt" id="sgi">SIGN IN</button>
+<button type="button"  class="bt" id="sgu">SIGN UP</button>
+ <div class="def" id="para">
+ <p>Lal Bahadur Shastri college of Engineering, Kasaragod is established in 1993 under the auspices of L.B.S Centre for Science and Technology, Thiruvananthapuram (www.lbscentre.kerala.gov.in).
+
+    The Centre is administered by a Governing Body and an Executive Committee. The Chief Minister, Government of Kerala is the Chairman of the Governing Body and the Minister for Education is the Vice-Chairman. The Principal Secretary for Higher Education is the Chairman of the Executive Committee and the Director of Technical Education is its Vice-Chairman. The Director of the Centre is the Member Secretary of both the bodies. He is the Executive head of the Centre. There are Joint Directors, Deputy Directors, Assistant Directors, Administrative Officer, Finance Officer and other subordinate staff to help the Director in administration and financial matters.</p>
+</div>
+
+</div>
+</div>
+</body>
+<script>
+
+ 
+  let si = document.getElementById("sgi");
+  let su = document.getElementById("sgu");
+   
+  let emml = document.getElementById("emml");
+  let logn = document.getElementById("logn");
+  let title = document.getElementById("title");
+  let lbs = document.getElementById("lbs");
+  let tree = document.getElementById("tree");
+  let clg = document.getElementById("clg");
+
+
+  
+  
+
+
+
+  si.onclick = function() {
+  
+     emml.style.maxHeight="0";
+     console.log("olaa");
+     si.style.backgroundColor="rgb(56, 255, 6)";
+     si.style.color="white";
+     su.style.background="none";
+     
+     logn.innerText="LOGIN";
+
+  }
+  su.onclick = function() {
+
+    emml.style.maxHeight="65px";
+    si.style.background="none";
+    su.style.backgroundColor="rgb(255, 55, 55";
+    logn.innerText="SIGN UP";
+
+su.style.color="white"; }
+
+ window.addEventListener('scroll',() => {
+
+     let value = window.scrollY;
+  
+   
+     
+     lbs.style.top = value * .6 +'px';
+     tree.style.left = value * -.5 + 'px';
+
+    
+
+  
+     
+    
+ })
+  
+
+
+</script>
+</html>

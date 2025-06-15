@@ -1,0 +1,385 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&display=swap');
+*{
+
+    scroll-behavior: smooth;
+}
+
+
+body
+{
+    
+
+   
+  background-color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    min-height: 100vh;
+    color: white;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+
+
+    
+}
+
+h1{
+
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(237, 237, 237);
+  text-align: center;
+}
+
+p{
+
+    margin-top: 150px;
+    
+}
+
+h4{
+
+}
+
+.cl{
+
+   
+}
+
+.container{
+ display: block;
+  width: 350px;
+  height: 250px;
+  margin-top: 25px;
+  float: right;
+  
+  margin-right: 150px;
+  padding-top: 1px;
+  border: solid 2px rgb(255, 249, 249);
+  border-radius: 10px;
+  text-align: center;
+  
+ 
+
+  
+  
+  
+
+}
+.pass{
+
+    margin-top: 20px;
+}
+
+.blk
+{
+
+     background: 
+}
+
+.user
+{
+
+    margin-top: 20px;;
+}
+
+input
+{
+    border-radius:20px;
+    boder:2px solid rgb(255, 255, 255);
+    padding-left:5px;
+    
+    margin:10px;
+    margin-top: px;
+    height:30px;
+    width:300px;
+    background: white;
+    color: aliceblue;
+    transition: color 1s;
+    
+}
+
+.btn{
+
+    width:100px;
+    height: 30px;
+    margin: 5px;
+    background-color:rgb(73, 228, 73);
+    color: aliceblue;
+    border:none;
+    border-radius: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+::placeholder {
+
+      
+    color:rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4{
+
+    margin:3px;
+    text-size-adjust: 10px;
+} 
+
+
+
+
+.bg{
+
+    position: absolute;
+    margin-left: 300px;
+
+
+
+  
+
+    
+     
+   
+}
+
+.enl{
+
+    max-height: 65px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+
+button{
+
+
+    margin: 30px;
+
+    margin-top: 100px;
+
+    width: 200px;
+    height: 50px;
+    background:none;
+    color: gainsboro;
+
+    border-radius: 30px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+     transition: background,color 0.5s;
+}
+
+.bt
+{
+
+
+    border: solid 2px rgb(228, 78, 73);
+    color: rgb(255, 10, 10);
+    transition: color 1s;
+
+}
+
+
+    .bt:hover{
+
+
+        background-color: rgb(255, 55, 55);
+        color: aliceblue;
+    }
+
+    .btt{
+
+        border: solid 2px rgb(73, 228, 73);
+        color: greenyellow;
+        transition: color 1s;
+    }
+
+    .btt:hover{
+
+        background-color: rgb(56, 255, 6);
+        color: aliceblue;
+    }
+
+    .def
+    {
+
+        width: 75%;;
+        color: rgb(90, 181, 0);
+    }
+ 
+    li{
+
+     display: inline-block;
+        margin-left: 20px;
+        position: relative;
+        float: right;
+        color: rgb(22, 239, 55) 26);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+    }
+
+    .header{
+
+        
+        height: 50px;
+    
+        
+    }
+
+    .btn:hover{
+
+
+        background-color: rgb(25, 249, 0);
+    }
+
+    #logn{
+
+        transition: text 1s;
+    }
+
+    .main{
+        background-image: url("../img/bg.png");
+
+        
+    }
+
+    #cl{
+    
+         position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     overflow:hidden;
+     background-image: url("../img/sky.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+    
+    
+    }
+    ::-webkit-scrollbar
+    {
+         display: none;
+    }
+
+
+    #title{
+
+
+   
+      text-align: center;
+        
+        font-size:15dvh;
+        margin-top: -200px;
+        margin-left: 100px;
+    
+        
+        
+    }
+
+
+    #cl img{
+
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        left:0px;
+    }
+
+    .blur{
+
+        text-align: center;
+        height: 30px;
+        filter: blur(7px);
+        
+        background-color: black;
+        width: 100%;
+        color: black;
+        position: absolute;
+        top: 675px;
+    
+        
+    }
+
+
+    .comnt{
+
+
+        padding-bottom: 150px;
+    }
+
+    .lbs{
+
+        top: 30px;
+    }
+
+    #tree{
+
+        
+      text-align: center;
+        
+      font-size:15dvh;
+      margin-top: -600px;
+      margin-left: 600px;
+      filter: blur(2px);
+  
+      
+    }
+
+    #ltree{
+
+         
+     
+  
+      
+    }
+
+
+
+    .header{
+
+
+        background-image: radial-gradient(180deg , black black);
+        background-color: black;
+         backdrop-filter: blur(3px);
+    }
+
+
+    #bln{
+
+        text-align: center;
+        
+        font-size:15dvh;
+        margin-top: -200px;
+        margin-left: 100px;
+        position: relative;
+    
+        
+        
+       
+    }
+
+    .bord
+    {
+
+        background-color: rgb(0, 0, 0);
+        color: black;
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        bottom: -5px;
+        filter: blur(15px);
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 20px;
+        left: 0px;
+    }
+
+    .comnt{
+
+        padding-top: 85px;
+    }
+
+   
